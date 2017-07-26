@@ -1,0 +1,26 @@
+     [echo] ant 'start-client' target has been called
+     [java] javax.xml.ws.WebServiceException: Accesso a WSDL non riuscito in: https://assign3-server.herokuapp.com/ws/people?wsdl. Non riuscito con: 
+     [java] 	https://assign3-server.herokuapp.com/ws/people?wsdl.
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.tryWithMex(RuntimeWSDLParser.java:249)
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:230)
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:193)
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:162)
+     [java] 	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:359)
+     [java] 	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+     [java] 	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+     [java] 	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:212)
+     [java] 	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:208)
+     [java] 	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:112)
+     [java] 	at javax.xml.ws.Service.<init>(Unknown Source)
+     [java] 	at javax.xml.ws.Service.create(Unknown Source)
+     [java] 	at introsde.client.PeopleClient.<init>(Unknown Source)
+     [java] 	at introsde.client.PeopleClient.main(Unknown Source)
+     [java] Caused by: java.io.FileNotFoundException: https://assign3-server.herokuapp.com/ws/people?wsdl
+     [java] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+     [java] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+     [java] 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+     [java] 	at java.net.URL.openStream(Unknown Source)
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:983)
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:384)
+     [java] 	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:215)
+     [java] 	... 12 more
