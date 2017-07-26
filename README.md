@@ -1,20 +1,20 @@
-Assignment 03: SOAP Web Services
+<h1>Assignment 03: SOAP Web Services </h1>
 
-Introduction to Service Design and Engineering | University of Trento
+<h2>Introduction to Service Design and Engineering | University of Trento</h2>
 
 Client
-------
+
 Server repository: https://github.com/raffu12/introsde-2016-assignment-3-sever
 I worked alone
-------
- - introsde.document.client: contains the file needed to make all the requests to my server;
+
+- introsde.document.client: contains the file needed to make all the requests to my server;
  - introsde.document.ws: contains all generated files from wsimport of my server;
-------
+
 Configuration files
 
 - build.xml: contains all targets to run the code;
 - ivy.xml: contains all dependencies to run the project and to download them.
-------
+
 Install
 
 In order to execute the client you need the following technologies (in the brackets you see the version used to develop):
@@ -28,7 +28,7 @@ git clone https://github.com/raffu12/introsde-2016-assignment-3-client && cd int
 
 How to run the client
 
-My server wsdl file is at: http://localhost:6902/ws/people?wsdl
+My server wsdl file is at: http://localhost:6902/ws/people?wsdl and https://ass3-server.herokuapp.com/ws/people?wsdl
 
 Working with it:
 
