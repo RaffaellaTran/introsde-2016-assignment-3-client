@@ -109,7 +109,7 @@
 		<record name="client.log" action="start" append="no" />
 		<echo message="ant 'start-client' target has been called" />
 		<java classname="introsde.client.PeopleClient" classpath="${build.dir}" fork="true">
-			<arg value="https://assign3-server.herokuapp.com/ws/people?wsdl" />
+			<arg value="http://localhost:6903/ws/people?wsdl" />
 			<classpath>
 				<path location="build" />
 				<fileset dir="${lib.dir}">
