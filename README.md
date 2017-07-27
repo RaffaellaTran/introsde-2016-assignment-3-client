@@ -28,10 +28,10 @@ git clone https://github.com/raffu12/introsde-2016-assignment-3-client && cd int
 
 How to run the client
 
-My server wsdl file is at: http://localhost:6902/ws/people?wsdl and https://ass3-server.herokuapp.com/ws/people?wsdl
+My server wsdl file is at: http://localhost:6902/ws/people?wsdl 
 
 Working with it:
-
+you have to download introsde-2016-assignment-3-server run it as explain in preview and
 cd introsde-2016-assignment-3-client
 ant execute.client
 
