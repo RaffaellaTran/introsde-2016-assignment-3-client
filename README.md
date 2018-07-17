@@ -1,6 +1,8 @@
-<h1>Assignment 03: SOAP Web Services </h1>
+<h1>Introduction to Service Design and Engineering (fall 2016) - Client Assignment 3 </h1>
 
-<h2>Introduction to Service Design and Engineering | University of Trento</h2>
+<h2>RAFFAELLA TRAN |University of Trento</h2>
+
+<h2>SOAP Web Services</h2>
 
 Client
 
